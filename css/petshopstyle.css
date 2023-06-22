@@ -15,7 +15,9 @@
         text-align: center;
         padding: 15px 0;
     }
-    
+    .none {
+        display: none;
+    }
     nav li{
         display: inline;
         background-repeat: no-repeat;
@@ -141,4 +143,49 @@
        .container {
            width: auto;
        }
+       ul{
+           display: flex;
+           flex-direction: column;
+           
+
+       }
+        li:hover{
+        color: #6dd463;
+        transform: scale(1.05);
+       }
+       nav  ul  li {
+            width: 80px;
+            background-image: none;
+            display: flex;
+            margin: 0 auto;
+            margin-bottom: 10px;
+
+           
+       }
+       .none {
+        display: block;
+        margin-right: 10%;
+        width:20px;
+        height:20px;
+       }
+
+       #item_contato {
+        margin: 0 auto; 
+        margin-right: 45.3%;
+       }
+
+       nav a{
+        border-bottom:1px solid green;
+       }
+        /* 
+       li{
+           border-bottom: #91e467 1px solid ;
+       }
+
+       nav li{
+        margin-bottom: 3%;
+        background-position:center;
+        padding-left: 20%;
+
+       } */
     }
